@@ -13,7 +13,7 @@ all:	test
 
 .PHONY:	test
 test:	$(TESTS)
-	for a in *.test; do "./$$a"; done
+	-for a in *.test; do "./$$a"; done
 
 .PHONY:	clean
 clean:
