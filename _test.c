@@ -18,6 +18,7 @@ _FAIL(int line, const char *fn, const char *s, ...)
   va_start(list, s);
   vsnprintf(_test_buf, sizeof _test_buf, s, list);
   va_end(list);
+  longjmp(_test_jmp, 1);
 }
 
 #include _TESTINC
