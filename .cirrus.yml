@@ -1,0 +1,8 @@
+container:
+  image: gcc:latest
+
+make_task:
+  apt_script: apt-get update
+  prep_script: make debian
+  test_script: make
+
