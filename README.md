@@ -1,3 +1,5 @@
+[![wtf Status](https://api.cirrus-ci.com/github/hilbix/wtf.svg?branch=master)](https://cirrus-ci.com/github/hilbix/wtf/master)
+
 # WTF
 
 Things I do just do not understand.
